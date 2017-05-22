@@ -1,7 +1,7 @@
 <?php
 $url = "https://accounts.google.com/o/oauth2/auth";
-$client_id = "185051731407-lp8eou2bjk0dt1rjir77jek6oact1mng.apps.googleusercontent.com";
-$client_secret = "m8OFRSxputHQj-aZQPis1efF";
+$client_id = "1071118288111-2qc95hbmlt3a70p1r6mlret1100l4ncj.apps.googleusercontent.com";
+$client_secret = "5C7QLP1PPmd5OnccQY7X0sHP";
 $redirect_uri = "https://publish99.herokuapp.com/publish/start.php";
 $access_type = "offline";
 $approval_prompt = "force";
