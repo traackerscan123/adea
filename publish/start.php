@@ -2,7 +2,7 @@
 $url = "https://accounts.google.com/o/oauth2/auth";
 $client_id = "185051731407-lp8eou2bjk0dt1rjir77jek6oact1mng.apps.googleusercontent.com";
 $client_secret = "m8OFRSxputHQj-aZQPis1efF";
-$redirect_uri = "https://indexi7.herokuapp.com/publish/start.php";
+$redirect_uri = "https://publish99.herokuapp.com/publish/start.php";
 $access_type = "offline";
 $approval_prompt = "force";
 $grant_type = "authorization_code";
@@ -40,7 +40,7 @@ if(isset($_GET['code'])) {
   
   //echo "\nAccess token: " . $authObj->access_token;
   $token = $authObj->access_token;
-  echo '<script> top.location.href = "https://indexi7.herokuapp.com/publish/upload.php?code='.$authObj->access_token.'"; </script>';
+  echo '<script> top.location.href = "https://publish99.herokuapp.com/publish/upload.php?code='.$authObj->access_token.'"; </script>';
 
 }
 header("Location: " . $request_to);
