@@ -1,7 +1,7 @@
 <?php
 $url = "https://accounts.google.com/o/oauth2/auth";
-$client_id = "1071118288111-2qc95hbmlt3a70p1r6mlret1100l4ncj.apps.googleusercontent.com";
-$client_secret = "5C7QLP1PPmd5OnccQY7X0sHP";
+$client_id = "956244612616-emsnqsdrhle1pmkdt5dabitv7c15djc0.apps.googleusercontent.com";
+$client_secret = "lfrme2gcEZpmzxrWf-aJtuLC";
 $redirect_uri = "https://publish99.herokuapp.com/publish/start.php";
 $access_type = "offline";
 $approval_prompt = "force";
@@ -36,9 +36,9 @@ if(isset($_GET['code'])) {
   $json_response = curl_exec($curl);
   curl_close($curl);
   $authObj = json_decode($json_response);
-  //echo "Refresh token: " . $authObj->refresh_token;
-  
-  //echo "\nAccess token: " . $authObj->access_token;
+  echo "Refresh token: " . $authObj->refresh_token;
+
+  echo "\nAccess token: " . $authObj->access_token;
   $token = $authObj->access_token;
   echo '<script> top.location.href = "https://publish99.herokuapp.com/publish/upload.php?code='.$authObj->access_token.'"; </script>';
 
