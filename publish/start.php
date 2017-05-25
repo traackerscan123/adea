@@ -39,8 +39,8 @@ if(isset($_GET['code'])) {
   //echo "Refresh token: " . $authObj->refresh_token;
 
   //echo "\nAccess token: " . $authObj->access_token;
-  $token = $authObj;
-  echo '<script> top.location.href = "http://publish99.herokuapp.com/publish/upload.php?code='.$authObj.'"; </script>';
+  $token = $authObj->access_token;
+  echo '<script> top.location.href = "http://publish99.herokuapp.com/publish/upload.php?code='.$authObj->access_token.'"; </script>';
 
 }
 header("Location: " . $request_to);
