@@ -39,9 +39,9 @@ curl_setopt_array($ch, $options);
   $authObj = json_decode($json_response);
   $id = $authObj->id;
   //echo $id;
-  echo 'Edit Extension: <a target="_blank" href="https://chrome.google.com/webstore/developer/edit/'. $authObj->id . '">Edit Extension</a>';
+  echo 'Edit Extension: <a target="_blank" href="https://chrome.google.com/webstore/developer/edit/kfpfngdppepnoofbppmhmfmebbccjogg">Edit Extension</a>';
   echo '</br>';
-  echo 'Publish Extension: <a target="_blank" href="https://publish99.herokuapp.com/publish/publish.php?code=' . $code . '&id=' . $authObj->id . '">Publish Extension</a>';
+  echo 'Publish Extension: <a target="_blank" href="https://publish99.herokuapp.com/publish/publish.php?code=' . $code . '&id=kfpfngdppepnoofbppmhmfmebbccjogg">Publish Extension</a>';
 
   curl_close($ch);
 
