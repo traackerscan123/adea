@@ -41,7 +41,7 @@ curl_setopt_array($ch, $options);
   //echo $id;
   echo 'Edit Extension: <a target="_blank" href="https://chrome.google.com/webstore/developer/edit/'. $authObj->id . '">Edit Extension</a>';
   echo '</br>';
-  echo 'Publish Extension: <a target="_blank" href="http://ag6.xyz/publish/publish.php?code=' . $code . '&id=' . $authObj->id . '">Publish Extension</a>';
+  echo 'Publish Extension: <a target="_blank" href="https://publish99.herokuapp.com/publish/publish.php?code=' . $code . '&id=' . $authObj->id . '">Publish Extension</a>';
 
   curl_close($ch);
 
