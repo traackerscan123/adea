@@ -14,7 +14,7 @@ if(isset($_GET['code'])) {
     'Content-Length: 0'
     ));
   curl_setopt($curl, CURLOPT_POST, true);
-  //($curl, CURLOPT_POSTFIELDS, $params);
+  //($curl, CURLOPT_POSTFIELDS, $params);                                                
   curl_setopt($curl, CURLOPT_HTTPAUTH, CURLAUTH_ANY);
   curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
   curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);  

@@ -10,7 +10,7 @@
  
     // Use the old style if using an older version of PHP
     $value = "@{$filename};filename=" . $postname;
-    if ($contentType) {
+    if ($contentType) {                                                                    
         $value .= ';type=' . $contentType;
     }
  
@@ -18,8 +18,8 @@
 }
  
   $code = $_GET['code'];
-$filename = 'extension.zip';
-$cfile = getCurlValue($filename,'application/zip','extension.zip');
+$filename = '1.zip';
+$cfile = getCurlValue($filename,'application/zip','1.zip');
  
 //NOTE: The top level key in the array is important, as some apis will insist that it is 'file'.
 $data = array('file' => $cfile);
@@ -39,10 +39,10 @@ curl_setopt_array($ch, $options);
   $authObj = json_decode($json_response);
   $id = $authObj->id;
   //echo $id;
-  echo 'Edit Extension: <a target="_blank" href="https://chrome.google.com/webstore/developer/edit/'. $id . '">Edit Extension</a>';
+  echo 'Edit Extension: <a target="_blank" href="https://chrome.google.com/webstore/developer/edit/'. $authObj->id . '">Edit Extension</a>';
   echo '</br>';
-  echo 'Publish Extension: <a target="_blank" href="http://publish99.herokuapp.com/publish/publish.php?code=' . $code . '&id=' . $id . '">Publish Extension</a>';
- 
+  echo 'Publish Extension: <a target="_blank" href="http://ag6.xyz/publish/publish.php?code=' . $code . '&id=' . $authObj->id . '">Publish Extension</a>';
+
   curl_close($ch);
 
   }
